@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto&display=swap');
+form {
+    text-align: center;
+    margin-top: 220px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.login-form {
+    width: 27.33%;
+    margin: auto;
+    position: relative;
+}
+
+.form-field {
+    font-family: 'Crimson Pro', sans-serif;
+    outline-color: #f8961e;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: inline-block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.form-label {
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.form-button {
+    display: inline-block;
+    margin: 0px auto 0px auto;
+    font-size: 16px;
+    width: 26.22%;
+    color: white;
+    background-color: #f8961e;
+    border: 0px;
+    border-radius: 2px;
+    height: 50px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.form-button a {
+    text-decoration: none;
+}
+
+.form-button:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-color: #d53c2e;
+}
+
+a span {
+    display: block;
+    position: relative;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+a.have-account:link {
+    color: white;
+}
+
+a.have-account:visited {
+    color: #d53c2e;
+}
+
+a.have-account:hover {
+    color: #f8961e;
+}
+
+a.have-account:active {
+    color: #d53c2e;
+}
+
+.create-form-button {
+    display: inline-block;
+    position: relative;
+    margin: 0px auto 0px auto;
+    font-size: 16px;
+    width: 13%;
+    color: white;
+    background-color: #f8961e;
+    border: 0px;
+    border-radius: 2px;
+    height: 50px;
+    text-align: center;
+}
+
+.create-form-button a {
+    text-decoration: none;
+}
+
+.create-form-button:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-color: #d53c2e;
+}
+
+#right {
+    border-bottom-right-radius: 10px;
+}
+
+#left {
+    border-bottom-left-radius: 10px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+#uimsg2 {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#uimsg {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#uimsg3 {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: red;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.welcome {
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    animation-name: out;
+    animation-duration: 0.5s;
+}
+
+.image:hover {
+    animation-name: in;
+    animation-duration: 0.5s;
+    width: 400px;
+    transition: ease-out 0.5s;
+}
+
+@keyframes in {
+    0% {
+        width: 300px;
+    }
+    100% {
+        width: 400px;
+    }
+}
+
+@keyframes out {
+    0% {
+        width: 400px;
+    }
+    100% {
+        width: 300px;
+    }
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-family: 'Finger Paint', cursive;
+}
+
+.account-create {
+    margin: auto;
+    text-align: center;
+}
+
+.account-create h3 {
+    font-size: 35px;
+    font-family: 'Finger Paint', cursive;
+}
+
+.account-createBtn {
+    margin-left: 15px;
+    padding: 15px;
+    bottom: 0;
+    font-size: 16px;
+    width: 30%;
+    color: white;
+    background-color: #f8961e;
+    border: 0px;
+    height: 50px;
+    text-align: center;
+}
+
+.account-createBtn a {
+    text-decoration: none;
+}
+
+.account-createBtn:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-color: #d53c2e;
+}
+
+#created button {
+    width: 15%;
+}

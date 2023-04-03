@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto&display=swap');
+.bell-gen-con {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#bell-gen {
+    width: 75%;
+    display: block;
+}
+
+.bell-des {
+    font-family: 'Finger Paint', cursive;
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 25px;
+}
+
+#bell-title {
+    font-size: 30px;
+}
+
+span.current-balance {
+    float: right;
+    font-family: 'Finger Paint', cursive;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.current-balance-img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+#add-bell-button {
+    width: 50%;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bell-title-img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.product-container {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.product-img-container {
+    display: inline-block;
+}
+
+.product-img {
+    width: 750px;
+    height: 425px;
+}
+
+.content-container {
+    background-color: #333333;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    height: 425px;
+    position: relative;
+}
+
+.product-name {
+    font-size: 35px;
+}
+
+.product-desc {
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.product-price {
+    font-size: 25px;
+    font-family: 'Finger Paint', cursive;
+    text-align: left;
+    padding-left: 20px;
+    float: left;
+}
+
+.bell-price {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.qty-field {
+    font-family: 'Crimson Pro', sans-serif;
+    outline-color: #f8961e;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 25%;
+    float: right;
+    height: 10px;
+    margin-right: 20px;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.formBtns {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.form-button {
+    bottom: 0;
+    font-size: 16px;
+    width: 49.7%;
+    color: white;
+    background-color: #f8961e;
+    border: 0px;
+    height: 50px;
+    text-align: center;
+}
+
+.form-button a {
+    text-decoration: none;
+}
+
+.form-button:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-color: #d53c2e;
+}
+
+.qty-title {
+    font-family: 'Finger Paint', cursive;
+    font-size: 25px;
+    margin-left: 200px;
+    text-align: right;
+}
+
+.advice {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Finger Paint', cursive;
+    right: 150px;
+    bottom: 150px;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background-color: #333333;
+}
+
+.right-point {
+    position: absolute;
+    right: 130px;
+    bottom: 130px;
+    width: 10px;
+    transform: rotate(-45deg);
+    height: 10px;
+    border-style: solid;
+    border-width: 50px 25px 0 25px;
+    border-color: #333333 transparent transparent transparent;
+}
+
+.nook {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

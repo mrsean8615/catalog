@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto&display=swap');
+.prod-cart-container {
+    display: inline-block;
+    margin: auto;
+    background-color: #333333;
+    width: 800px;
+    height: 225px;
+    margin-top: 100px;
+}
+
+.cart-container {
+    margin: auto;
+    position: relative;
+    display: grid;
+}
+
+.cart-img {
+    width: 400px;
+    height: 225px;
+    float: left;
+}
+
+.prod-info-container {
+    display: inline-block;
+    height: 225px;
+    width: 350px;
+    vertical-align: top;
+    background-color: #333333;
+    position: relative;
+}
+
+#cartQty {
+    position: absolute;
+    bottom: 98px;
+    margin-right: 5px;
+}
+
+.fieldQty {
+    position: absolute;
+    font-family: 'Finger Paint', cursive;
+}
+
+.cart-product-price {
+    float: left;
+    padding-left: 7px;
+    font-family: 'Finger Paint', cursive;
+}
+
+.product-total {
+    float: left;
+    bottom: 45px;
+    padding-left: 7px;
+    font-family: 'Finger Paint', cursive;
+    position: absolute;
+}
+
+.cart-title {
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Finger Paint', cursive;
+    position: absolute;
+    top: 50px;
+    left: 29%;
+}
+
+.place-order {
+    position: absolute;
+    right: 25px;
+    top: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.orderBtn {
+    margin-left: 15px;
+    padding: 15px;
+    float: right;
+    bottom: 0;
+    font-size: 16px;
+    width: 40%;
+    color: white;
+    background-color: #f8961e;
+    border: 0px;
+    height: 50px;
+    text-align: center;
+}
+
+.orderBtn a {
+    text-decoration: none;
+}
+
+.orderBtn:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-color: #d53c2e;
+}
+
+#order-sum {
+    margin-top: 50px;
+}
+
+#order-sumBtn {
+    width: 350px;
+    top: 0;
+}
+
+.empty-cart {
+    margin: auto;
+    text-align: center;
+}
+
+.empty-cart h3 {
+    font-size: 35px;
+    font-family: 'Finger Paint', cursive;
+}
+
+.cart-emptyBtn {
+    margin-left: 15px;
+    padding: 15px;
+    bottom: 0;
+    font-size: 16px;
+    width: 30%;
+    color: white;
+    background-color: #f8961e;
+    border: 0px;
+    height: 50px;
+    text-align: center;
+}
+
+.cart-emptyBtn a {
+    text-decoration: none;
+}
+
+.cart-emptyBtn:hover {
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-color: #d53c2e;
+}
+
+#added button {
+    width: 15%;
+}
